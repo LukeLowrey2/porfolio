@@ -14,14 +14,22 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #341212;
+  min-height: 10vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 5%;
+}
+
+.header-right{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .App-link {
@@ -35,4 +43,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.about{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about-me{
+  text-align: justify;
+  padding: 2%;
+  /* border: solid; */
+  /* width: 60%; */
+}
+
+.profile-picture{
+  width: 30%;
+  
 }
