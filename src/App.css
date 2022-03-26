@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  
 }
 
 .App-logo {
@@ -14,14 +14,14 @@
 }
 
 .App-header {
-  background-color: #341212;
+  background-color: #541313;
   min-height: 10vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(243, 253, 255);
   padding: 5%;
 }
 
@@ -48,19 +48,98 @@
 .about{
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+  /* width: 70%; */
+  padding: 20px;
+  
 }
 
 .about-me{
   text-align: justify;
-  padding: 2%;
+  padding: 20px;
   /* border: solid; */
   /* width: 60%; */
+  font-size: .9em; 
+  border-bottom: 15px solid #341212;
+  box-shadow: 10px 10px #ffd739 ;
+  background-color: rgb(243, 253, 255);
+  color: #341212;
 }
 
 .profile-picture{
-  width: 30%;
+  max-width: 20em;
+  min-width: 20em;
+  height: auto;
+  border: solid 5px #541313;
+  box-shadow: -10px 10px #ffd739 ;
+}
+
+.project{
+  display: flex;
+  border: solid;
+  padding: 20px;
+}
+
+.project-single{
+  border: dotted;
+}
+
+.place-holder{
+  width: 20%;
+  height: auto;
+}
+
+@media only screen and (max-width: 800px) {
+  .about {
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  /* width: 70%; */
+  padding: 20px;
+  }
+  .profile-picture{
+    max-width: 20em;
+    min-width: 20em;
+    height: auto;
+    border: solid 5px #541313;
+    box-shadow: -10px 10px #ffd739 ;
+    margin-bottom: 20px;
+  }
+
+  .about-me{
+    text-align: justify;
+    
+    /* border: solid; */
+    /* width: 60%; */
+    font-size: .9em; 
+    border-bottom: 15px solid #341212;
+    box-shadow: 10px 10px #ffd739 ;
+    background-color: rgb(243, 253, 255);
+    color: #341212;
+  }
+
+  .project{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid;
+    padding: 20px;
+  }
+  
+  .project-single{
+    border: dotted;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+  }
+  
+  .place-holder{
+    width: 20%;
+    height: auto;
+  }
   
 }
