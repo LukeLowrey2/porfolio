@@ -77,17 +77,23 @@
 }
 
 .project{
+  background-color: rgb(243, 253, 255);
   display: flex;
-  border: solid;
   padding: 20px;
+  font-size: .75em;
 }
 
 .project-single{
-  border: dotted;
+  background-color: #c6f3ff;
+  border-left: solid 10px #541313;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  padding: 10px;
 }
 
-.place-holder{
-  width: 20%;
+.project-picture{
+  width: 15em;
   height: auto;
 }
 
@@ -123,23 +129,28 @@
   }
 
   .project{
+    background-color: rgb(243, 253, 255);
     display: flex;
     flex-wrap: wrap;
-    border: solid;
     padding: 20px;
+    font-size: .75em;
   }
   
   .project-single{
-    border: dotted;
+    background-color: #c6f3ff;
+    border-left: solid 10px #541313;
     display: flex;
     flex-direction: column;
     align-items:center;
+    padding: 10px;
+    
     
   }
   
-  .place-holder{
-    width: 20%;
+  .project-picture{
+    width: 50%;
     height: auto;
+    
   }
   
 }

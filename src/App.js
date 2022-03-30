@@ -40,20 +40,35 @@ function App() {
           </div>
         
       </div>
-
       <div className="project">
+      <h1>My Projects</h1>
+      </div>
+      <div className="project">
+        
         <div className="project-single">
-        <p>Title</p>
-          <img className="place-holder" src="https://media.istockphoto.com/vectors/web-vector-id1162910018?k=20&m=1162910018&s=612x612&w=0&h=PeL2EHJBDY3hg3YH862SGPzvYiqKwAOOUcs7gd7jnUc="></img>
+        <h3>this.Group Records</h3>
+        <p>E-commerce site using React, Node.js, and Express. Users are able to create a login to add records to their cart and checkout. Backend constructed with SQL, and PostgreSQL.</p>
+        <a href="https://github.com/this-Group/graceShopperFrontEnd" target="_blank"><img className="project-picture" src="https://i.imgur.com/kJwgMKm.png"></img></a>
         </div>
+        <br></br>
         <div className="project-single">
-        <p>Title</p>
-          <img className="place-holder" src="https://media.istockphoto.com/vectors/web-vector-id1162910018?k=20&m=1162910018&s=612x612&w=0&h=PeL2EHJBDY3hg3YH862SGPzvYiqKwAOOUcs7gd7jnUc="></img>
+        <h3>Stranger's Things</h3>
+        <p>React application using routes to an API for user interaction. When logged in users can post, update, and delete ads of their own. Users can also message other users about ads. </p>
+          <a href="https://github.com/LukeLowrey2/strangers_things" target="_blank"><img className="project-picture" src="https://i.imgur.com/AWbjChI.png"></img></a>
         </div>
+        <br></br>
         <div className="project-single">
-        <p>Title</p>
-          <img className="place-holder" src="https://media.istockphoto.com/vectors/web-vector-id1162910018?k=20&m=1162910018&s=612x612&w=0&h=PeL2EHJBDY3hg3YH862SGPzvYiqKwAOOUcs7gd7jnUc="></img>
+        <h3>Fitness Tracker</h3>
+        <p>SPA using React and routes to an API. Users can login and collect work out routines made by other users or create their own. These routines are comprised of activities which are create by users. These activates can be added or removed from a the user’s routines. </p>
+        <a href="https://github.com/LukeLowrey2/Fitness_Trackr" target="_blank"><img className="project-picture" src="https://i.imgur.com/vQXrNGm.png"></img></a>
         </div>
+        <br></br>
+        <div className="project-single">
+          <h3>Arcade Game</h3>
+        <p>Interactive game using JavaScript, HTLM, and CSS. Players can assign their names to the board and play until l there is a winner or a draw. The outcome of the game is displayed above the board. If players want to continue they have the ability to reset the board with the rest button. </p>
+        <a href="https://github.com/LukeLowrey2/Arcade" target="_blank"><img className="project-picture" src="https://i.imgur.com/BBKpwV2.png"></img></a>
+        </div>
+        <br></br>
       </div>
 
     </div>
