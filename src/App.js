@@ -34,7 +34,7 @@ function App() {
             A Little About Me
           </h3>
           <p >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas nec ante a odio efficitur elementum. Nullam vel placerat lectus. Ut eleifend sodales ante, et luctus urna lobortis eget. Nullam vel lobortis erat. In gravida, nisi vel porttitor bibendum, lectus lorem mollis sem, quis cursus ex odio sed diam. Maecenas eget magna quam. Pellentesque a pellentesque nulla, id sodales sapien. Nulla laoreet risus et semper feugiat. Duis posuere justo at eros sollicitudin bibendum. Phasellus ornare, justo ut imperdiet rutrum, diam diam tincidunt elit, vitae luctus odio erat sed purus. Morbi malesuada risus non posuere dictum. Nunc turpis justo, venenatis sodales diam eget, venenatis vestibulum sapien. Morbi congue ipsum at tellus porttitor, quis eleifend est dictum. Donec ut tortor id orci sollicitudin congue. Vestibulum efficitur facilisis augue, quis consequat mi varius a.
+          Throughout my life I’ve found joy and magic when creating or editing websites with code. Be it making my Myspace page fit my everchanging personality as a kid, expanding my knowledge of design and responsiveness in my Interactive Media Program, or building a graphic design portfolio to show off my work. I always found coding to be spectacular and rewarding. After learning the tools to create functionality between the front and back end of an application, I’m excited to see where my future will take me. A future geared toward helping and expanding my community and the world through web development. 
 
           </p>
         </div>
