@@ -23,13 +23,16 @@
   font-size: calc(10px + 2vmin);
   color: rgb(243, 253, 255);
   padding: 5%;
+  
 }
 
 .header-right{
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
+  
+  width: 25%;
 }
 
 .App-link {

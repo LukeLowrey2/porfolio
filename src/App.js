@@ -12,11 +12,11 @@ function App() {
         </div>
         <div className="header-right">
           <div>
-            Portfolio
+          <a href="https://github.com/this-Group/graceShopperFrontEnd" target="_blank">Projects</a>
           </div>
           <br></br>
           <div>
-            Resume
+          <a href="https://github.com/this-Group/graceShopperFrontEnd" target="_blank">Resume</a>
           </div>
         </div>
       </header>
@@ -98,6 +98,10 @@ function App() {
 
         </div>
         <br></br>
+      </div>
+
+      <div className="resume">
+        <h1>Resume</h1>
       </div>
 
       <div className="resume">
