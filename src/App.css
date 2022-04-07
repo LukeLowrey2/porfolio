@@ -53,6 +53,8 @@
   /* flex-wrap: wrap; */
   /* width: 70%; */
   padding: 20px;
+  padding-left: 20%;
+  padding-right: 20%;
   
 }
 
@@ -63,9 +65,11 @@
   /* width: 60%; */
   font-size: .9em; 
   border-bottom: 15px solid #341212;
-  box-shadow: 10px 10px #ffd739 ;
+  /* box-shadow: 10px 10px #ffd739 ; */
   background-color: rgb(243, 253, 255);
   color: #341212;
+  /* max-width: 20em; */
+  min-width: 20em;
 }
 
 .profile-picture{
@@ -77,24 +81,39 @@
 }
 
 .project{
-  background-color: rgb(243, 253, 255);
-  display: flex;
-  padding: 20px;
-  font-size: .75em;
+  
+    background-color: rgb(243, 253, 255);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 20px;
+    font-size: .75em;
+    padding-left: 20%;
+    padding-right: 20%;
+  
+  
 }
 
 .project-single{
   background-color: #c6f3ff;
   border-left: solid 10px #541313;
   display: flex;
+  
   flex-direction: column;
   align-items:center;
   padding: 10px;
+  width: 50%;
 }
 
+
+
 .project-picture{
-  width: 15em;
+  display: flex;
+  
+  align-items:center;
+  width: 40%;
   height: auto;
+  
 }
 
 .resume{
@@ -102,7 +121,9 @@
   flex-direction: row;
   font-size: .8em; 
   padding: 20px;
-  background:rgb(243, 253, 255)
+  background:rgb(243, 253, 255);
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 @media only screen and (max-width: 800px) {
