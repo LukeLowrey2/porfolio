@@ -25,7 +25,7 @@ function App() {
         {/* Banner Image */}
       </div>
 
-      <div className="about">
+      {/* <div className="about">
 
         <img className="profile-picture" src="https://i.imgur.com/1GDgwRP.jpg" alt="Luke Lowrey Profile"></img>
 
@@ -39,8 +39,10 @@ function App() {
           </p>
         </div>
 
-      </div>
-      <div className="project">
+      </div> */}
+
+
+      {/* <div className="project">
         <h1>My Projects</h1>
       </div>
       <div className="project">
@@ -98,9 +100,9 @@ function App() {
 
         </div>
         <br></br>
-      </div>
+      </div> */}
 
-      <div className="resume">
+      {/* <div className="resume">
         <h1>Resume</h1>
       </div>
 
@@ -144,7 +146,7 @@ function App() {
           </ul>
 
         </div>
-      </div>
+      </div> */}
 
 
       <footer>
