@@ -20,7 +20,7 @@ function Projects() {
                     <p>E-commerce site using React, Node.js, and Express. Users are able to create a login to add records to their cart and checkout. Backend constructed with SQL, and PostgreSQL.</p>
                     <a href="https://github.com/this-Group/graceShopperFrontEnd" target="_blank">GitHub</a>
                 </div>
-                <br></br>
+                
 
                 <div className="project-single">
                     <h3>Stranger's Things</h3>
@@ -33,10 +33,10 @@ function Projects() {
                     <a href="https://github.com/LukeLowrey2/strangers_things" target="_blank">GitHub</a>
                 </div>
 
-            </div>
+           
 
 
-            <div className="project">
+            
 
                 <div className="project-single">
                     <h3>Fitness Tracker</h3>
@@ -49,7 +49,7 @@ function Projects() {
                     <a href="https://github.com/LukeLowrey2/Fitness_Trackr" target="_blank">GitHub</a>
 
                 </div>
-                <br></br>
+                
                 <div className="project-single">
                     <h3>Arcade Game</h3>
                     <img className="project-picture" src="https://i.imgur.com/BBKpwV2.png"></img>
@@ -57,11 +57,11 @@ function Projects() {
 
 
 
-                    <p>Interactive game using JavaScript, HTLM, and CSS. Players can assign their names to the board and play until a win or a draw. If players want to continue, they have the ability to reset the board with the rest button.  </p>
+                    <p>Interactive game using JavaScript, HTLM, and CSS. Players can assign their names and play until a win or a draw. If players want to continue, they have the ability to reset the board with the rest button.  </p>
                     <a href="https://github.com/LukeLowrey2/Arcade" target="_blank">GitHub</a>
 
                 </div>
-                <br></br>
+                
             </div>
         </div>
     )

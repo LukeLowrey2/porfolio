@@ -1,5 +1,8 @@
-import logo from './logo.svg';
+import { Route, Link, Switch } from 'react-router-dom';
 import './App.css';
+import Bio from './components/Bio';
+import Projects from './components/Projects';
+import Resume from './components/Resume'
 
 function App() {
   return (
@@ -11,19 +14,50 @@ function App() {
           </p>
         </div>
         <div className="header-right">
-          <div>
-          <a href="https://github.com/this-Group/graceShopperFrontEnd" target="_blank">Projects</a>
+
+          <Link className='header-link' to="/">Bio</Link>
+          <br></br>
+          <Link className='header-link' to="/projects">Projects</Link>
+          <br></br>
+          <Link to="/resume">Resume</Link>
+          <br></br>
+
+          {/* <div>
+            <a href="https://github.com/this-Group/graceShopperFrontEnd" target="_blank">Projects</a>
           </div>
           <br></br>
           <div>
-          <a href="https://github.com/this-Group/graceShopperFrontEnd" target="_blank">Resume</a>
+            <a href="https://github.com/this-Group/graceShopperFrontEnd" target="_blank">Projects</a>
           </div>
+          <br></br>
+          <div>
+            <a href="https://github.com/this-Group/graceShopperFrontEnd" target="_blank">Resume</a>
+          </div> */}
         </div>
       </header>
 
       <div>
         {/* Banner Image */}
       </div>
+
+
+      <div>
+        <Switch>
+
+          <Route exact path="/">
+            <Bio />
+          </Route>
+          <Route exact path="/projects">
+            <Projects />
+          </Route>
+          <Route exact path="/resume">
+            <Resume />
+          </Route>
+        </Switch>
+      </div>
+
+
+
 
       {/* <div className="about">
 
