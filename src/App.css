@@ -11,8 +11,39 @@
   }
 }
 
+h1{
+  font-family: 'Blinker', sans-serif;
+}
+
+h2{
+  font-family: 'Blinker', sans-serif;
+}
+
+h3{
+  font-family: 'Blinker', sans-serif;
+}
+
+p{
+  font-family: 'Jura', sans-serif;
+}
+
+li{
+  font-family: 'Jura', sans-serif;
+}
+
+a{
+  font-family: 'Jura', sans-serif;
+}
+
 a:visited {
   color: rgb(44, 7, 6);
+  
+}
+
+a:hover{
+  color:#9e3617;
+  
+  
 }
 
 .App-header {

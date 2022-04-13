@@ -9,9 +9,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div>
-          <p>
+          <h2>
             Luke Lowrey II
-          </p>
+          </h2>
         </div>
         <div className="header-right">
 
@@ -183,8 +183,21 @@ function App() {
       </div> */}
 
 
-      <footer>
-        <br></br>
+      <footer className="App-header">
+      <div>
+          <p>
+            Luke Lowrey II
+          </p>
+        </div>
+        <div className="header-right">
+
+          <Link className='header-link' to="/">Bio</Link>
+          <br></br>
+          <Link className='header-link' to="/projects">Projects</Link>
+          <br></br>
+          <Link to="/resume">Resume</Link>
+          <br></br>
+          </div>
       </footer>
 
     </div>
