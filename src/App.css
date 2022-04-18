@@ -52,20 +52,27 @@ a:hover{
   
 }
 
+img {
+  border-radius: 5%;
+}
+
 .App-header {
-  background-color: rgb(255, 238, 128);
+  background-color: #ffd025;
   /* min-height: 10vh; */
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   font-size: calc(5px + 2vmin);
-  color: rgb(71, 12, 10);
+  color: rgb(65, 4, 1);
   padding-left: 5%;
   padding-right: 5%;
   height: 10%;
   border-bottom: solid 2px #341212;
-
+  background-image: url("https://i.imgur.com/LafWRR6.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 425%;
 }
 
 .header-right {
@@ -173,7 +180,7 @@ a:hover{
 }
 
 .footer {
-  background-color: rgb(255, 238, 128);
+  background-color: #ffd025;
   min-height: 7vh;
   display: flex;
   flex-direction: row;

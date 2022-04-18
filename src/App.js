@@ -35,12 +35,7 @@ function App() {
           </div> */}
         </div>
       </header>
-
-      <div>
-        {/* Banner Image */}
-      </div>
-
-
+      
       <div>
         <Switch>
 
@@ -190,8 +185,8 @@ function App() {
           </h2>
         </div>
         <div className="footer-right">
-          <a className="social-link" href="https://www.linkedin.com/in/lukelowrey2/"> <img className="social-icon" src="https://i.imgur.com/0vnuVJ3.png" alt="Luke Lowrey Profile"></img></a>
-          <a className="social-link"href="https://github.com/LukeLowrey2"><img className="social-icon"src="https://i.imgur.com/uBgKiip.png" alt="Luke Lowrey Profile"></img></a>
+          <a className="social-link" href="https://www.linkedin.com/in/lukelowrey2/" target="_blank"> <img className="social-icon" src="https://i.imgur.com/0vnuVJ3.png" alt="Luke Lowrey Profile"></img></a>
+          <a className="social-link"href="https://github.com/LukeLowrey2" target="_blank"><img className="social-icon"src="https://i.imgur.com/uBgKiip.png" alt="Luke Lowrey Profile"></img></a>
         </div>
         
       </footer>
