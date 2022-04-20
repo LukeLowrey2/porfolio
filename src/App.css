@@ -6,16 +6,6 @@
 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 h1{
   font-family: 'Blinker', sans-serif;
@@ -61,26 +51,27 @@ img {
   /* min-height: 10vh; */
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+  /* align-items: stretch; */
+  justify-content: space-around;
   font-size: calc(5px + 2vmin);
   color: rgb(65, 4, 1);
   padding-left: 5%;
   padding-right: 5%;
   height: 10%;
+  width: 100%;
   border-bottom: solid 2px #341212;
   background-image: url("https://i.imgur.com/LafWRR6.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: 50% 425%;
+  background-position: 5% 490%;
 }
 
 .header-right {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
-
+  justify-content: flex-start;
+  /* padding-right: 5%; */
   width: 25%;
 }
 
@@ -89,9 +80,7 @@ img {
   padding-right: 5%;
 }
 
-.App-link {
-  color: #61dafb;
-}
+
 
 .about {
   display: flex;
@@ -112,7 +101,7 @@ img {
   padding: 20px;
   /* border: solid; */
   /* width: 60%; */
-  font-size: .9em;
+  /* font-size: calc(5px + 2vmin); */
   /* border-bottom: 2px solid #341212; */
   /* box-shadow: 10px 10px #ffd739 ; */
   background-color: rgb(243, 253, 255);
@@ -137,7 +126,7 @@ img {
   justify-content: flex-start;
   align-items: center;
   padding: 20px;
-  font-size: .75em;
+  font-size: 75%;
   padding-left: 20%;
   padding-right: 20%;
 
@@ -147,6 +136,7 @@ img {
 .project-single {
   background-color: rgb(243, 253, 255);
   border: solid 2px #541313;
+  border-radius: 5%;
   display: flex;
 
   flex-direction: column;
@@ -154,7 +144,7 @@ img {
   margin: 10px;
   padding: 10px;
   width: 50%;
-  font-size: 75%;
+  
 }
 
 
@@ -172,7 +162,7 @@ img {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  font-size: .8em;
+  
   padding: 20px;
   background: rgb(243, 253, 255);
   padding-left: 20%;
@@ -185,7 +175,7 @@ img {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   font-size: calc(px + 2vmin);
   color: rgb(71, 12, 10);
   position: relative;
@@ -204,9 +194,9 @@ img {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: flex-end;
-
-  width: 40%;
+  justify-content: space-around;
+  /* padding-right: 5%; */
+  width: 20%;
   
 }
 
@@ -216,17 +206,41 @@ img {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding-right: 15%;
-}
-
-.social-icon{
-  width: 20px;
-  height: auto;
-  /* padding-left: 20%; */
+  /* padding-right: 15%; */
   
 }
 
+.social-icon{
+  max-width: 40px;
+  height: auto;
+  /* padding-left: 20%; */
+  
+  
+}
+
+
+
 @media only screen and (max-width: 800px) {
+.App-header {
+  /* background-color: #ffd025; */
+  /* min-height: 10vh; */
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: rgb(65, 4, 1);
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 10%;
+  width: 100%;
+  border-bottom: solid 2px #341212;
+  background-image: url("https://i.imgur.com/LafWRR6.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 5% 490%;
+}
+
   .about {
     display: flex;
     flex-direction: row;
@@ -234,12 +248,13 @@ img {
     justify-content: space-around;
     flex-wrap: wrap;
     /* width: 70%; */
-    padding: 50px;
+    padding: 5%;
+    
   }
 
   .profile-picture {
-    max-width: 20em;
-    min-width: 20em;
+    max-width: 40em;
+    min-width: em;
     height: auto;
     box-shadow: -5px 5px 10px #78c2c6;
     margin-bottom: 20px;
@@ -250,7 +265,7 @@ img {
 
     /* border: solid; */
     /* width: 60%; */
-    font-size: .9em;
+    
     /* border-bottom: 2px solid #341212; */
 
     background-color: rgb(243, 253, 255);
@@ -261,7 +276,7 @@ img {
     background-color: rgb(243, 253, 255);
     display: flex;
     flex-wrap: wrap;
-    padding: 20px;
+    padding: 5%;
     font-size: .75em;
   }
 
@@ -273,7 +288,7 @@ img {
     align-items: center;
     margin: 10px;
     padding: 10px;
-    font-size: 20%;
+    
     /* width: 50%; */
 
 
@@ -288,8 +303,8 @@ img {
   .resume {
     display: flex;
     flex-direction: column;
-    font-size: .8em;
-    padding: 20px;
+    
+    padding: 5%;
     background: rgb(243, 253, 255)
   }
 
@@ -298,8 +313,9 @@ img {
     position: relative;
     min-height: 2vh;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     /* justify-content: space-between; */
     padding-bottom: 5px;
    border-top:solid 2px
