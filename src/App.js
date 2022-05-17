@@ -21,6 +21,8 @@ function App() {
           <br></br>
           <Link to="/resume">Resume</Link>
           <br></br>
+          <Link to="/art">Art</Link>
+          <br></br>
 
         </div>
       </header>
@@ -35,6 +37,9 @@ function App() {
             <Projects />
           </Route>
           <Route exact path="/resume">
+            <Resume />
+          </Route>
+          <Route exact path="/art">
             <Resume />
           </Route>
         </Switch>
